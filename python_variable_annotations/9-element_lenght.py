@@ -1,4 +1,4 @@
-#!/usr/bin/env python31
+#!/usr/bin/env python3
 """
     sdadsdsdsdsdsdds ssdsad
 """
