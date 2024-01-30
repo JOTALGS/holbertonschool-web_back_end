@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-    dsadsadsf fdf sfd sdf 
+    dsadsadsf fdf sfd sdf
 """
 
 
