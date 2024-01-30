@@ -11,9 +11,9 @@ export default function getListStudents() {
       location: 'Columbia',
     },
     {
-    firstName: 'Serena',
-    id: 5,
-    location: 'San Francisco',
+      firstName: 'Serena',
+      id: 5,
+      location: 'San Francisco',
     },
   ];
 }
