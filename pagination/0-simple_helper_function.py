@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-    bla balb ablablablablbabl 
-    alsdflsdsdsd 
+    bla balb ablablablablbabl
+    alsdflsdsdsd
 """
 
 
