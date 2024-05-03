@@ -7,18 +7,18 @@ export default function handleProfileSignup(firstName, lastName, fileName) {
         status: 'fulfilled',
         value,
     }))
-    .catch((err) => ({
+    .catch((error) => ({
       status: 'rejected',
-      value: err,    
+      value: error,    
     }));
   const fileResponse = uploadPhoto(fileName)
     .then((value) => ({
         status: 'fulfilled',
         value,
     }))
-    .catch((err) => ({
+    .catch((error) => ({
       status: 'rejected',
-      value: err,    
+      value: error,    
     }));
   const response = [userResponse, fileResponse];
   return Promise.allSettled(response);
