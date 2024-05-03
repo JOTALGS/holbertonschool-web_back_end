@@ -5,10 +5,10 @@ export default function handleResponseFromAPI(promise) {
   };
   return promise
     .then(() => {
-      return resp
+      return resp;
     })
     .catch(() => {
-      return new Error()
+      return new Error();
     })
     .finally (() => {
       console.log("Got a response from the API")
